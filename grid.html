@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        border: 5px solid red;
+
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        display: flex;
+
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 20px;
+        background-color: #640505;
+        color: #9eed00;
+      }
+      nav div ul {
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        cursor: pointer;
+        gap: 20px;
+      }
+      nav div button {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+      }
+      nav div button:hover {
+        background-color: #d24444;
+      }
+      .hero {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #222222;
+        color: #ffffff;
+        padding: 40px 80px;
+      }
+      .hero div {
+        width: 50%;
+      }
+      .hero div h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      .hero div p {
+        font-size: 1.2rem;
+        color: #757272;
+        margin-bottom: 1rem;
+      }
+      .hero div button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+      }
+      .hero div img {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #ffffff;
+      }
+      .hero div img:hover {
+        transform: rotate(3deg);
+        transition: all 0.5s ease-in-out;
+      }
+      .logo-text {
+        text-align: center;
+        margin: 20px 0px;
+        font-size: 3rem;
+        color: #222222;
+      }
+      .logo {
+        display: flex;
+        border: 2px solid black;
+        margin: 20px 10%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo div img {
+        width: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+  
+      }
+      .three-card {
+        display: flex;
+        margin: 150px 150px;
+        justify-content: space-evenly;
+        border: 2px solid black;
+        padding: 20px 20px;
+        box-shadow: 0 0 10px black;
+      }
+      .three-card div img {
+        height: 200px;
+      }
+      .card {
+        border: 2px solid black;
+        padding: 5px;
+        width: 20%;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+      }
+      .card h3 {
+        font-size: 1.2rem;
+        margin-top: 10px;
+      }
+      .card p {
+        margin-top: 10px;
+      }
+
+      @media screen and (max-width: 976px) {
+        .three-card {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .three-card div {
+          width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <p style="font-family:'Courier New">Resume</p>
+      </div>
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+        <button>Signup</button>
+        <button>Login</button>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <h1 style="font-family ":Courier NewCourier New">KUNAL SINGH</h1>
+        <p style="font-family: verdana">
+          I am a passionate and driven Computer Science student currently
+          pursuing a B.Tech, with a focus on web development , frontend
+          technologies and web designing . My academic journey and personal
+          projects have fueled my interest in building seamless, intuitive, and
+          efficient digital solutions. I believe that a strong foundation in technology
+          and an analytical mindset can complement each other in both the tech
+          and financial sectors.
+        </p>
+      </div>
+      <div>
+        <img
+          style="width: 25rem; height: 25rem; position: relative; left: 400px;"
+          src="Screenshot 2024-10-19 at 12.53.51 PM.png"
+          alt=""
+          width="px"
+        />
+      </div>
+    </section>
+
+    </body>
+</html>
